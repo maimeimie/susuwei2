@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url('img/หน้าจอ.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+    font-family: 'sarabun',sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 20vh auto 0 auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    color: #0f2027;
+    text-align: center;
+    font-size: 20px;
+    position:relative;
+}
+
+.button {
+    padding: 20px;
+    margin-top: 12px;
+    width: 300px;
+    color: white;
+    background-color: rgb(73, 43, 205);
+    border:none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(90, 152, 200);
+    color: white;
+}
